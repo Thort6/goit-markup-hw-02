@@ -183,12 +183,12 @@ h2 {
 .title-examples {
   font-family: var(--font-family-main);
   font-weight: 700;
-  text-decoration-line: none;
-  text-decoration: none;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--list-color-title);
+  text-decoration-line: var(--link);
+  text-decoration: none;
 }
 .subtitle-examples {
   font-family: var(--font-family-main);
@@ -196,7 +196,7 @@ h2 {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--list-color-subtitle);
-  text-decoration-line: none;
+  text-decoration-line: var(--link);
   text-decoration: none;
 }
 
