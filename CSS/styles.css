@@ -7,8 +7,8 @@
 }
 /* header */
 body {
-  color: var(--main-color);
-  font-family: var(--font-family-main);
+  color: #212121;
+  font-family: "Roboto", sans-serif;
 }
 .logo-header {
   font-family: "Raleway", sans-serif;
