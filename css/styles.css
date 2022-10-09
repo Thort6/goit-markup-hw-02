@@ -1,0 +1,231 @@
+
+:root {
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-side: "Raleway", sans-serif;
+  --main-color: #212121;
+  --side-color: #757575;
+  --link: none;
+}
+/* header */
+body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+}
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  Font style: Bold;
+}
+.logo-header2 {
+  color: #000000;
+}
+.agency {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration-line: var(--link);
+  text-decoration: none;
+  color: #2196f3;
+}
+.portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration-line: var(--link);
+  text-decoration: none;
+}
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration-line: var(--link);
+  text-decoration: none;
+}
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration-line: var(--link);
+  color: #2196f3;
+}
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration-line: var(--link);
+  color: var(--side-color);
+}
+/* main-page  */
+h1 {
+width: 696px;
+height: 120px;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.header-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.lorem {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.ipsum {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--side-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.position {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--side-color);
+}
+/* potrfolio-page */
+.order-button {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+}
+.order-button:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button-all {
+  width: 121px;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #2196f3;
+  color: #ffffff;
+}
+.button-all:hover {
+  box-shadow: 0px 3px 1px rgba(90, 87, 87, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-sublist {
+  width: 93px;
+  height: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--list-color-title);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.button-sublist:hover {
+  box-shadow: 0px 3px 1px rgba(90, 87, 87, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.title-examples {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-decoration-line: var(--link);
+  text-decoration: none;
+}
+.subtitle-examples {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-decoration-line: var(--link);
+  text-decoration: none;
+  color: var(--side-color);
+}
+
+/* section-footer */
+footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  Font style: Bold;
+}
+.footer-logo2 {
+  color: #ffffff;
+}
+.footer-adress {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--side-color);
+}
+.footer-tel {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration-line: var(--link);
+  color: var(--side-color);
+}
+
+ 
