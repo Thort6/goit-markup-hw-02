@@ -38,7 +38,6 @@ body {
   letter-spacing: 0.02em;
   text-decoration-line: var(--link);
   text-decoration: none;
-  color: var(--main-color);
 }
 .contacts {
   font-weight: 500;
@@ -47,7 +46,6 @@ body {
   letter-spacing: 0.02em;
   text-decoration-line: var(--link);
   text-decoration: none;
-  color: var(--main-color);
 }
 .mail {
   font-weight: 500;
